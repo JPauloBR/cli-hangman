@@ -1,0 +1,26 @@
+{
+  "name": "cli-hangman",
+  "version": "1.0.0",
+  "description": "A command line interface (CLI) hangman game",
+  "main": "cli-hangman.js",
+  "scripts": {
+    "test": "node cli-hangman.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPauloBR/cli-hangman.git"
+  },
+  "keywords": [
+    "cli",
+    "hangman"
+  ],
+  "author": "Joao Paulo Alexandre de Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JPauloBR/cli-hangman/issues"
+  },
+  "homepage": "https://github.com/JPauloBR/cli-hangman#readme",
+  "dependencies": {
+    "inquirer": "^3.3.0"
+  }
+}
