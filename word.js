@@ -3,7 +3,6 @@ var fs = require("fs");
 
 var Word = function(){
 	this.size = 0;
-	this.rightGuesses = 0;
 	this.self = function(){
 	var data = fs.readFileSync("secret_words.txt", "utf8");
 	  // Then split it by commas (to make it more readable)
@@ -24,5 +23,4 @@ var Word = function(){
 	  return separateLetters;
 	};
 };
-
 module.exports = Word;
